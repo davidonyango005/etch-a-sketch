@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styling.css">
+
+       
+        <title>Etch a Sketch Project</title>
+    </head>
+    <body>
+        <h1>ETCH A SKETCH</h1>
+
+        <div class="button-bar">
+            <fieldset class="grid-set">
+                <legend>Setting the number of grids</legend>
+                    <button id="reset-grid">Reset grids</button> <br>
+            </fieldset>
+            
+            <fieldset class="color-set">
+                <legend>
+                <button id="reset-color">Reset Color</button>
+            </legend>
+
+                <input type="color" id="color-picker" />
+                <p id="color-picker-set">CHOOSE COLOR</p>
+                <br><br>
+                
+                <label class="switch">
+                    <input type="checkbox"  id="color-checkbox">
+                    <span class="slider round"></span>
+                    <br>
+                    <p>COLOR MODE</p>
+                </label>
+    
+            </fieldset>
+        </div>
+        
+        <div class="container" id="draw-area">
+            <script src="js scripts/jscript.js"></script>
+        </div>
+      
+    </body>
+</html>
